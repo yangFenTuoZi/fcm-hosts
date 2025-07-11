@@ -32,8 +32,8 @@ const ipAddressBaseUrl = 'https://www.ipaddress.com/site/';
 
 const tpl = `
 {content}
-# Please Star : https://github.com/ineo6/hosts
-# Mirror Repo : https://gitlab.com/ineo6/hosts
+# Please Star : https://github.com/yangFenTuoZi/fcm-hosts
+# Thanks : https://github.com/ineo6/hosts
 `;
 
 function resolveUrl(host: string) {
@@ -98,12 +98,10 @@ interface UpdateConfig {
 
 function hostsTpl(content: string, time: string) {
   return [
-    '# 地址可能会变动，请务必关注GitHub、Gitlab获取最新消息',
-    '# 也可以关注公众号：湖中剑，保证不迷路',
-    '# GitHub Host Start\n',
+    '# FCM Host Start\n',
     `${content}\n`,
     `# Update at: ${time}\n`,
-    '# GitHub Host End'
+    '# FCM Host End'
   ].join('\n');
 }
 
@@ -115,7 +113,7 @@ function updateMd(content: string, config: UpdateConfig) {
   } catch (err) {
   }
 
-  const regMatch = previousHosts.match(/GitHub Host Start([\s\S]*)# Update at/);
+  const regMatch = previousHosts.match(/FCM Host Start([\s\S]*)# Update at/);
   const previousHostRule = regMatch ? regMatch[1].trim() : '';
 
   const needUpdate = previousHostRule !== content;
