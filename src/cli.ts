@@ -71,7 +71,7 @@ async function createServer({port}: { port: number }) {
   console.log(
     [
       `  当前版本：${pkg.version}`,
-      `  Github Hosts 运行在:`,
+      `  FCM Hosts 运行在:`,
       `  - Local:   ${chalk.cyan(localUrl)}`,
     ].join('\n'),
   );
