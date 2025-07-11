@@ -52,11 +52,3 @@ jobs:
           mkdir ./public
           mv ./README.md ./public/
 
-      - name: GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.COMMIT_TOKEN }}
-          publish_dir: ./public
-          enable_jekyll: true
-          keep_files: true
-
