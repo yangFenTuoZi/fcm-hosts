@@ -1,7 +1,7 @@
 {
   "name": "hosts-server",
   "version": "1.0.1",
-  "description": "GitHub最新hosts文件",
+  "description": "FCM最新hosts文件",
   "main": "src/index.ts",
   "bin": {
     "hosts-server": "bin/hosts-cli.js"
