@@ -1,20 +1,20 @@
 # FCM Host Start
 
-192.178.218.188              mtalk.google.com
-192.178.213.188              alt1-mtalk.google.com
-172.253.116.188              alt2-mtalk.google.com
-192.178.223.188              alt3-mtalk.google.com
-173.194.76.188               alt4-mtalk.google.com
-142.250.102.188              alt5-mtalk.google.com
-192.178.213.188              alt6-mtalk.google.com
-192.178.163.188              alt7-mtalk.google.com
+142.250.101.188              mtalk.google.com
+192.178.128.188              alt1-mtalk.google.com
+172.253.135.188              alt2-mtalk.google.com
+172.253.145.188              alt3-mtalk.google.com
+74.125.27.188                alt4-mtalk.google.com
+192.178.209.188              alt5-mtalk.google.com
+192.178.152.188              alt6-mtalk.google.com
+142.250.96.188               alt7-mtalk.google.com
 192.178.163.188              alt8-mtalk.google.com
-142.250.31.93                dl.google.com
-172.253.63.93                dl.l.google.com
+142.251.40.110               dl.google.com
+142.250.68.78                dl.l.google.com
 
 # Please Star : https://github.com/yangFenTuoZi/fcm-hosts
 # Thanks : https://github.com/ineo6/hosts
 
-# Update at: 2026-02-19 06:39:20
+# Update at: 2026-02-19 10:35:41
 
 # FCM Host End
